@@ -1,6 +1,6 @@
 fruit = 'banana'
 a=0
 for i in fruit:
-    print(i,a)
+    print(i, a)
     a=a+1
 
