@@ -1,6 +1,5 @@
-fruit = 'banana'
-a=0
-for i in fruit:
-    print(i, a)
-    a=a+1
-
+fname=input('Enter the file name:')
+fhand=open(fname)
+for line in fhand:
+    line=line.rstrip()
+    print(line.upper() )
